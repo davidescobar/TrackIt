@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/light_gray">
+    <include android:id="@+id/projectProgressLayout"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        layout="@layout/progress_partial" />
+		<TextView android:id="@+id/myWorkTextView"
+		    android:layout_width="match_parent" android:layout_height="wrap_content"
+		    android:layout_below="@+id/projectProgressLayout"
+		    android:text="@string/my_work" style="@style/section_heading" />
+		<ListView android:id="@+id/storiesListView"
+		    android:layout_width="match_parent" android:layout_height="wrap_content"
+		    android:layout_below="@+id/myWorkTextView" />
+</RelativeLayout>

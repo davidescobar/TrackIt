@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/light_gray">
+    <include android:id="@+id/mainTrackerProgressLayout"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        layout="@layout/progress_partial" />
+    <TextView android:id="@+id/myProjectsTextView"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:paddingTop="@dimen/spacing_size_small" android:paddingLeft="@dimen/spacing_size_small"
+        android:paddingBottom="@dimen/spacing_size_small" style="@style/section_heading"
+        android:singleLine="true" android:text="@string/my_projects" />
+    <ListView android:id="@+id/projectsListView"
+        android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

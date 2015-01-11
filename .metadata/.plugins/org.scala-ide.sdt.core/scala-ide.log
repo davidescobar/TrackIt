@@ -1,0 +1,32 @@
+2014-02-17 01:04:58,528 ERROR [main] - System.err - java.lang.reflect.InvocationTargetException
+2014-02-17 01:04:58,529 ERROR [main] - System.err - at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:677)
+2014-02-17 01:04:58,529 ERROR [main] - System.err - at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+2014-02-17 01:04:58,529 ERROR [main] - System.err - at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+2014-02-17 01:04:58,529 ERROR [main] - System.err - at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+2014-02-17 01:04:58,529 ERROR [main] - System.err - at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+2014-02-17 01:04:58,530 ERROR [main] - System.err - at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+2014-02-17 01:04:58,530 ERROR [main] - System.err - at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+2014-02-17 01:04:58,530 ERROR [main] - System.err - Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+2014-02-17 01:04:58,530 ERROR [main] - System.err - at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:175)
+2014-02-17 01:04:58,530 ERROR [main] - System.err - at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+2014-02-17 01:04:58,530 ERROR [main] - System.err - at org.eclipse.core.internal.resources.Project.create(Project.java:287)
+2014-02-17 01:04:58,530 ERROR [main] - System.err - at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+2014-02-17 01:04:58,530 ERROR [main] - System.err - at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:727)
+2014-02-17 01:04:58,530 ERROR [main] - System.err - at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+2014-02-17 01:04:58,530 ERROR [main] - System.err - ... 6 more
+2014-02-17 01:05:17,446 ERROR [main] - System.err - java.lang.reflect.InvocationTargetException
+2014-02-17 01:05:17,447 ERROR [main] - System.err - at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:677)
+2014-02-17 01:05:17,447 ERROR [main] - System.err - at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+2014-02-17 01:05:17,447 ERROR [main] - System.err - at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+2014-02-17 01:05:17,447 ERROR [main] - System.err - at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+2014-02-17 01:05:17,447 ERROR [main] - System.err - at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+2014-02-17 01:05:17,447 ERROR [main] - System.err - at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+2014-02-17 01:05:17,447 ERROR [main] - System.err - at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+2014-02-17 01:05:17,447 ERROR [main] - System.err - Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+2014-02-17 01:05:17,447 ERROR [main] - System.err - at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:175)
+2014-02-17 01:05:17,447 ERROR [main] - System.err - at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+2014-02-17 01:05:17,447 ERROR [main] - System.err - at org.eclipse.core.internal.resources.Project.create(Project.java:287)
+2014-02-17 01:05:17,447 ERROR [main] - System.err - at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+2014-02-17 01:05:17,448 ERROR [main] - System.err - at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:727)
+2014-02-17 01:05:17,448 ERROR [main] - System.err - at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+2014-02-17 01:05:17,448 ERROR [main] - System.err - ... 6 more

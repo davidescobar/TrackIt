@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    tools:context=".LoginActivity">
+    <include android:id="@+id/loginProgressLayout"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        layout="@layout/progress_partial" />
+    <TextView android:id="@+id/appNameTextView"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" android:layout_below="@+id/loginProgressLayout"
+        android:layout_marginTop="@dimen/spacing_size_small" android:singleLine="true"
+        android:text="@string/app_name" android:textSize="@dimen/font_size_gigantic" />
+    <TextView android:id="@+id/appDescriptionTextView"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" android:layout_below="@+id/appNameTextView"
+        android:text="@string/app_description" android:textSize="@dimen/font_size_small"
+        android:singleLine="true" />
+    <EditText android:id="@+id/loginEditText"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" android:layout_below="@+id/appDescriptionTextView"
+        android:layout_marginTop="@dimen/spacing_size_normal" android:layout_marginLeft="@dimen/spacing_size_normal"
+        android:layout_marginRight="@dimen/spacing_size_normal" android:singleLine="true"
+        android:inputType="text" android:textSize="@dimen/font_size_largest"
+        android:hint="Username or email" />
+    <EditText android:id="@+id/passwordEditText"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/spacing_size_normal" android:layout_marginRight="@dimen/spacing_size_normal"
+        android:layout_centerHorizontal="true" android:layout_below="@+id/loginEditText"
+        android:inputType="textPassword" android:textSize="@dimen/font_size_largest"
+        android:hint="Password" />
+    <Button android:id="@+id/loginButton"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" android:layout_below="@+id/passwordEditText"
+        android:layout_marginTop="@dimen/spacing_size_normal" android:padding="@dimen/spacing_size_small"
+        android:text="Login" android:textSize="@dimen/font_size_largest" />
+</RelativeLayout>

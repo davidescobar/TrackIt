@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="@dimen/spacing_size_small" android:orientation="horizontal"
+    android:baselineAligned="false" android:background="@color/light_yellow">
+    <ImageView android:id="@+id/storyTypeImageView"
+        android:layout_width="@dimen/spacing_size_normal" android:layout_height="@dimen/spacing_size_normal"
+        android:paddingLeft="@dimen/spacing_size_small" android:layout_marginTop="@dimen/spacing_size_tiny"
+        android:contentDescription="@string/story_type" />
+    <TextView android:id="@+id/nameTextView"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/spacing_size_small" android:maxLines="4" android:ellipsize="end"
+        android:textSize="@dimen/font_size_normal" />
+</LinearLayout>

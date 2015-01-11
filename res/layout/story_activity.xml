@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/light_gray"
+    android:padding="@dimen/activity_horizontal_margin">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+	    <Button android:id="@+id/cancelButton"
+	        android:layout_width="wrap_content" android:layout_height="wrap_content"
+	        android:text="@string/cancel" android:layout_toLeftOf="@+id/saveButton" />
+	    <Button android:id="@+id/saveButton"
+	        android:layout_width="wrap_content" android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true" android:text="@string/save" />
+	  </RelativeLayout>
+    <TextView android:id="@+id/storyIDTextView"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:singleLine="true" android:layout_marginTop="15dp" android:text="ID"
+        android:textSize="@dimen/font_size_normal" android:layout_gravity="center"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+      <TableLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Title" />
+				    <EditText android:id="@+id/nameEditText"
+				        android:layout_width="match_parent" android:layout_height="wrap_content"
+				        android:inputType="textMultiLine" android:hint="Story title"
+				        android:maxLines="4" android:textSize="@dimen/font_size_larger" />
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+          <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Story type" />
+          <Spinner android:id="@+id/storyTypeSpinner"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+          <TextView android:id="@+id/pointsTextView"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Points" />
+          <Spinner android:id="@+id/pointsSpinner"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="State" />
+            <Spinner android:id="@+id/statesSpinner"
+                android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Requester" />
+            <Spinner android:id="@+id/requesterSpinner"
+                android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Owner" />
+            <Spinner android:id="@+id/ownerSpinner"
+                android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

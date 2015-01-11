@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">TrackIt!</string>
+  <string name="app_description">Pivotal Tracker Client</string>
+  <string name="title_activity_login">TrackIt!</string>
+	<string name="my_projects">My Projects</string>
+	<string name="my_work">My Work</string>
+	<string name="story_type">Story type</string>
+	<string name="login_failed">Login failed. Please double-check your login and password.</string>
+	<string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+	<string name="save">Save</string>
+</resources>
